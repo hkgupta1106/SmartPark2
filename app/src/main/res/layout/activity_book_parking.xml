@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/custom_toolbar"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone number:"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:digits="0 1 2 3 4 5 6 7 8 9"
+            android:maxLength="10"
+            android:id="@+id/et_phoneno"
+            android:hint="Phone Number"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle no."
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_vehicleno"
+            android:hint="Vehicle Number"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set date:"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/et_selectdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Date"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set Time:"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/et_selecttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Time"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number Of Parking"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/et_noofparking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter No. Of Parking"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed to Pay"
+            android:id="@+id/btn_proceed"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textAllCaps="false"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@color/colorPrimary"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
