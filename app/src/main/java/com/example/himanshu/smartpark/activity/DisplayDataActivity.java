@@ -1,9 +1,10 @@
-package com.example.himanshu.smartpark;
+package com.example.himanshu.smartpark.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.himanshu.smartpark.R;
 import com.example.himanshu.smartpark.model.UserDataModel;
 
 import java.util.Random;

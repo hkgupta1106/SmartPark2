@@ -1,9 +1,11 @@
-package com.example.himanshu.smartpark;
+package com.example.himanshu.smartpark.activity;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.himanshu.smartpark.R;
 
 public class MainActivity extends AppCompatActivity {
 
